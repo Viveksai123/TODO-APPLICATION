@@ -4,10 +4,14 @@
   box-sizing: border-box;
   margin: 0;
   padding: 0;
+  
 }
 
 body {
   font-family: 'Poppins', sans-serif;
+  background: linear-gradient(135deg, #A9F1DF, #FFBBBB);
+  height: 100vh;
+ 
 }
 
 .container {
@@ -15,7 +19,9 @@ body {
   margin: 30px auto;
   overflow: auto;
   min-height: 300px;
-  border: 1px solid steelblue;
+  border: 0.1px solid #FFBBBB;
+  backdrop-filter: blur(8px); 
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
   padding: 30px;
   border-radius: 5px;
 }
